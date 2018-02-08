@@ -174,5 +174,6 @@ namespace TicTacToe
 				currentPlayer--;
 			}
 		}
+
 	}
 }
