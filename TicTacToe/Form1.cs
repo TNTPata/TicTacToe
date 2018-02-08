@@ -13,6 +13,7 @@ namespace TicTacToe
 	public partial class TicTacToe : Form
 	{
 		int currentPlayer = 1;
+		int[,] gameboard = new int[3, 3];
 
 		//Player 1 = X, Player 2 = O
 
