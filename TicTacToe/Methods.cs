@@ -8,5 +8,9 @@ namespace TicTacToe
 {
 	class Methods
 	{
+		public static void GameboardListener()
+		{
+
+		}
 	}
 }
