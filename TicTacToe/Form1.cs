@@ -12,6 +12,10 @@ namespace TicTacToe
 {
 	public partial class TicTacToe : Form
 	{
+		int currentPlayer = 1;
+
+		//Player 1 = X, Player 2 = O
+
 		public TicTacToe()
 		{
 			InitializeComponent();
@@ -19,10 +23,66 @@ namespace TicTacToe
 
 		private void label1_Click(object sender, EventArgs e)
 		{
-
+			if (currentPlayer == 1)
+			{
+				button1.Text = "X";
+				button1.Enabled = false;
+				currentPlayer++;
+			}
+			else if (currentPlayer == 2)
+			{
+				button1.Text = "O";
+				button1.Enabled = false;
+				currentPlayer--;
+			}
 		}
 
 		private void label2_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button6_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button7_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button8_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button9_Click(object sender, EventArgs e)
 		{
 
 		}
